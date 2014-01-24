@@ -1,0 +1,29 @@
+[user]
+	name = Antonov Evgeniy
+	email = ##########
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 0x0+0+0
+	main-window-view = HistoryView
+	history-view-vpane-position = 345
+	file-view-vpane-position = 942
+	show-graph = true
+	file-view-hpane-position = 178
+[color]
+	ui = auto
+[alias]
+  co = checkout
+  ci = commit -m
+  st = status
+  br = branch
+  pl = pull --rebase
+  ph = push
+  phd = push origin dev:dev
+  phm = push origin master:master
+  mg = merge --no-ff
+  ad = add --all
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  lg = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  d = diff HEAD
